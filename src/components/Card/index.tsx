@@ -7,7 +7,6 @@ import {
  
 import unitedImg from '../../assets/united.png'
 
-
 export function Card(){
   return(
     <Container 

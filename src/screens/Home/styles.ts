@@ -13,3 +13,9 @@ export const Header = styled.ImageBackground`
 
 `
 
+export const Content = styled.View`
+  flex:1;
+  justify-content: center;
+  align-items: center;
+
+`

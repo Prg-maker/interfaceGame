@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Container , Header } from './styles'
+import {Container , Header ,  Content   } from './styles'
 
 import coverImg from '../../assets/cover.png'
 
@@ -15,7 +15,9 @@ export  function Home(){
         <Input placeholder='Pesquisar...' />
       </Header>
 
-      <Card/>
+      <Content>
+        <Card/>
+      </Content>
 
     </Container>
   )

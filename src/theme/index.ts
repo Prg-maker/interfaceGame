@@ -1,17 +1,17 @@
 export default  {
   
   COLORS: {
-    BACKGROUND: '#F2F2F2',
-    TEXT: '#170126',
-    ALERT: '#73074D',
-
-    PRIMARY_900: '#280540',
-    PRIMARY_800: '#3B0C59'
+    BACKGROUND: '#08080A',
+    TEXT: '#FFFFFF',
+    BACKGROUND_BUTTON:'#F6DE09',
+    ALERT: '#1D1D1D',
+    PRIMARY_800: '#3B0C59',
+    BACKGROUND_APP_LOADING: "#171717"
   },
 
   FONTS: {
-    REGULAR: 'Roboto_400Regular',
-    MEDIUM: 'Roboto_500Medium',
-    BOLD: 'Roboto_700Bold'
+    REGULAR: 'Inter_400Regular',
+    MEDIUM: 'Inter_500Medium',
+    BOLD: 'Inter_700Bold'
   }
 }

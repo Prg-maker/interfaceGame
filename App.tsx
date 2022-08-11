@@ -1,4 +1,3 @@
-import React from 'react'
 
 import {useFonts , Inter_400Regular , Inter_500Medium , Inter_700Bold } from '@expo-google-fonts/inter'
  

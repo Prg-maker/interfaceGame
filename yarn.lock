@@ -2780,6 +2780,11 @@ camelize@^1.0.0:
   resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
   integrity sha512-W2lPwkBkMZwFlPCXhIlYgxu+7gC/NUlCtdK652DAJ1JdgV0sTrvuPFshNPrFa1TY2JOkLhgdeEBplB4ezEa+xg==
 
+caniuse-lite@^1.0.30001346:
+  version "1.0.30001375"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001375.tgz#8e73bc3d1a4c800beb39f3163bf0190d7e5d7672"
+  integrity sha512-kWIMkNzLYxSvnjy0hL8w1NOaWNr2rn39RTAVyIwcw8juu60bZDWiF1/loOYANzjtJmy6qPgNmn38ro5Pygagdw==
+
 caniuse-lite@^1.0.30001349:
   version "1.0.30001354"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001354.tgz#95c5efdb64148bb4870771749b9a619304755ce5"
@@ -5786,6 +5791,13 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+phosphor-react-native@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/phosphor-react-native/-/phosphor-react-native-1.1.2.tgz#a9424f40332fe9dbaf19d4ab88c61867072be2cf"
+  integrity sha512-uWYDG4S70JP89jmXljCA0K6/0mjQDHH8GVHFwF+dmbdYkALIE84jMMSemkFtjdsazB1j+xDBJcGaKN3PdEC8uQ==
+  dependencies:
+    caniuse-lite "^1.0.30001346"
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
@@ -6005,6 +6017,13 @@ react-native-codegen@^0.0.17:
     flow-parser "^0.121.0"
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
+
+react-native-drop-shadow@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-drop-shadow/-/react-native-drop-shadow-0.0.5.tgz#7a0e8aee7f54224b198a284ee46400227f5e5a69"
+  integrity sha512-JK0LGYVrd8ARqutEk+bP4H/B3ZdjcGYnj/Q2gom1drBMRyKqCxAl8IImqcFuSO92diFpSicPXJSP2VvxO3iuUg==
+  dependencies:
+    logkitty "^0.7.1"
 
 react-native-gradle-plugin@^0.0.6:
   version "0.0.6"

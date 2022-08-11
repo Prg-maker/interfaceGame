@@ -6,6 +6,7 @@ import {ThemeProvider} from 'styled-components/native'
 import THEME from './src/theme'
 import {AppLoading}from './src/AppLoading'
 import {StatusBar} from 'expo-status-bar'
+import { Store } from './src/screens/Store'
 
 export default function App() {
 
@@ -22,7 +23,10 @@ export default function App() {
   return (
     <ThemeProvider theme={THEME}>
       <StatusBar  style='light' translucent   />
-      <AppLoading/>
+      {
+        !fontsLoaded? <AppLoading/> : <Store/>
+      }
+
     </ThemeProvider>
   );
 }

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "InterfaceGame",
-    "slug": "InterfaceGame",
+    "name": "mobile-store",
+    "slug": "mobile-store",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

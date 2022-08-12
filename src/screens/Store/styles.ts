@@ -31,15 +31,15 @@ export const Scroll = styled.ScrollView`
   flex: 1;
   width: 100%;
   margin-top: 21px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 
 `
 
 export const Content = styled.View`
-  width: 80%;
+  width: 100%;
   flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 42px;
-  align-items: center ;
+  align-items: center;
+  padding-left: 45.5px;
 `

@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import SearchSvg from '../../assets/search.svg'
 
 export const Container = styled.View`
-  width: 318px;
+  width: 80%;
   height: 43px;
 
   flex-direction: row;

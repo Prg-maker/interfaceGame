@@ -41,5 +41,8 @@ export const Content = styled.View`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 45.5px;
+  justify-content: center;
+  padding-left:5%;
+  
+
 `

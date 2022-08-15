@@ -6,11 +6,9 @@ import THEME from './src/theme'
 import {AppLoading}from './src/AppLoading'
 import {StatusBar} from 'expo-status-bar'
 
-import { ShoppingCart } from './src/screens/ShoppingCart'
-import { Store } from './src/screens/Store'
 
 import { BottomBar } from './src/components/BottomBar'
-import { ScreenConfirm } from './src/screens/ScreenConfirm'
+import { Profile } from './src/screens/Profile'
 
 export default function App() {
 
@@ -28,7 +26,7 @@ export default function App() {
     <ThemeProvider theme={THEME}>
       <StatusBar  style='light' translucent   />
       {
-        !fontsLoaded? <AppLoading/> : <ScreenConfirm/>
+        !fontsLoaded? <AppLoading/> : <Profile/>
       }
       <BottomBar/>
 

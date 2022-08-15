@@ -7,6 +7,7 @@ import {AppLoading}from './src/AppLoading'
 import {StatusBar} from 'expo-status-bar'
 
 import { ShoppingCart } from './src/screens/ShoppingCart'
+import { Store } from './src/screens/Store'
 
 import { BottomBar } from './src/components/BottomBar'
 

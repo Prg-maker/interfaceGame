@@ -6,10 +6,12 @@ import { ProductConfirm, PropsProducts } from "../../components/ProductConfirm";
 import { Container, ContainerTotally, ContentSum, Separete, Sum, SumTotally } from "./styles";
 
 export function ShoppingCart() {
+
+
   const [products, setProducts] = useState<PropsProducts[]>([
     {
       id: "2",
-      amount: "9",
+      amount: 9,
       imageUrl:
         "https://cdn.w600.comps.canstockphoto.com.br/cima-produtos-beleza-fazer-vetor-clip-arte_csp5949486.jpg",
       price: "500",
@@ -19,7 +21,17 @@ export function ShoppingCart() {
 
     {
       id: "1",
-      amount: "9",
+      amount: 9,
+      imageUrl:
+        "https://cdn.w600.comps.canstockphoto.com.br/cima-produtos-beleza-fazer-vetor-clip-arte_csp5949486.jpg",
+      price: "500",
+      title:
+        "Scalable, produtos beleza, cosméticos, gráfico, mudança, cheio, like., cobrança, vetorial, cores, tu",
+    },
+
+    {
+      id: "5",
+      amount: 9,
       imageUrl:
         "https://cdn.w600.comps.canstockphoto.com.br/cima-produtos-beleza-fazer-vetor-clip-arte_csp5949486.jpg",
       price: "500",
@@ -29,13 +41,15 @@ export function ShoppingCart() {
    
   ]);
 
+
+
   return (
     <Container>
       <FlatList
         style={{
           width: "100%",
           paddingLeft: 12,
-          marginBottom: "80%",
+          marginBottom: "100%",
           marginTop: getBottomSpace() + 25,
         }}
         data={products}
@@ -64,9 +78,8 @@ export function ShoppingCart() {
        
       </ContainerTotally>
 
-      <View style={{position:'absolute'}}>
-        <Button  title="Desing"/>
-          
+      <View style={{position:'absolute'  }}>
+        <Button  title="Confirm"/>
       </View>
     </Container>
   );

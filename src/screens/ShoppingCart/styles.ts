@@ -9,12 +9,12 @@ export const Container = styled.View`
 
 export const ContainerTotally= styled.View`
   position: absolute;
-  margin-top: 120%;
+  margin-top: 100%;
 `
 
 export const Separete = styled.View`
 
-  width: 390px;
+  min-width: 328px;
   height: 3px;
   background: #9B9B9B;
   

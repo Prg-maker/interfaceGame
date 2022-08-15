@@ -10,6 +10,7 @@ import { ShoppingCart } from './src/screens/ShoppingCart'
 import { Store } from './src/screens/Store'
 
 import { BottomBar } from './src/components/BottomBar'
+import { ScreenConfirm } from './src/screens/ScreenConfirm'
 
 export default function App() {
 
@@ -27,7 +28,7 @@ export default function App() {
     <ThemeProvider theme={THEME}>
       <StatusBar  style='light' translucent   />
       {
-        !fontsLoaded? <AppLoading/> : <ShoppingCart/>
+        !fontsLoaded? <AppLoading/> : <ScreenConfirm/>
       }
       <BottomBar/>
 

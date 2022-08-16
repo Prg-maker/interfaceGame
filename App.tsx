@@ -9,6 +9,8 @@ import {StatusBar} from 'expo-status-bar'
 
 import { BottomBar } from './src/components/BottomBar'
 import { Delivery } from './src/screens/Delivery'
+import { Store } from './src/screens/Store'
+import { DetailsProduct } from './src/screens/DetailsProduct'
 
 export default function App() {
 
@@ -26,7 +28,7 @@ export default function App() {
     <ThemeProvider theme={THEME}>
       <StatusBar  style='light' translucent   />
       {
-        !fontsLoaded? <AppLoading/> : <Delivery/>
+        !fontsLoaded? <AppLoading/> : <DetailsProduct/>
       }
       <BottomBar/>
 
